@@ -19,7 +19,7 @@ function appendDriver(name){
 }
 
 function prependDriver(name) {
-  return const ['name',...drivers];
+  return  ['name',...drivers];
 }
 function removeLastDriver() {
   return drivers.slice(0, drivers.length - 1);
