@@ -18,8 +18,6 @@ function appendDriver(name){
   return drivers.concat(name);
 }
 
-const drivers = ["Milo", "Otis", "Garfield"];
-
 function prependDriver(name) {
   return ['name',...drivers];
 }
