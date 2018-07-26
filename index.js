@@ -15,5 +15,5 @@ function destructivelyRemoveFirstDriver() {
   return drivers.shift('Milo')
 }
 function appendDriver(name){
-  return drivers.concat(name)
+  return drivers.concat(name);
 }
