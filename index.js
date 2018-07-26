@@ -12,7 +12,7 @@ function destructivelyRemoveLastDriver() {
   return drivers.pop('Garfield');
 }
 function destructivelyRemoveFirstDriver() {
-  return drivers.shift('Milo')
+  return drivers.shift('Milo');
 }
 function appendDriver(name){
   return drivers.concat(name);
