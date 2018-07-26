@@ -5,7 +5,7 @@ function destructivelyAppendDriver('Ralph') {
   return drivers.push('name');
 }
 function destructivelyPrependDriver('Bob') {
-  return drivers.unshift('name');
+  return drivers.unshift('Bob');
 }
 
 function destructivelyRemoveLastDriver() {
